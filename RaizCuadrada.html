@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RaizCuadrada</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- importar los estilo y las librerias-->
+    <link  rel="stylesheet" href="css/estilos.css">
+
+  
+</head>  
+  <body>
+    
+    <header>
+      <h1>Raiz Cuadrada </h1>
+      <h2>Álgebra</h2>
+    </header>
+
+    <form id="forma" action="javascript:procesa()">
+      <p><em>El borde azul indica obligatorio</em></p>
+      
+
+    <!-- TexBox  -->
+
+    
+      <p>
+        
+        Introduce el numero: <input type="text" id="n1"><br>
+        <!-- Numero 2: <input type="text" id="n2"><br><br> -->
+    </p> 
+
+    
+    <p>
+        <h4>
+        RaizCuadrada: <input type="text" id="suma"><br><br>
+        <!-- Division: <input type="text" id="div"><br><br>
+        Resta: <input type="text" id="res"><br><br>
+        Multiplicacion: <input type="text" id="mult"><br> -->
+        </h4>
+    </p>
+
+        <input type="submit" value="Calcular" onclick="opera()" accesskey="P">
+        <button id="limpiar">Limpiar</button>
+
+         
+       </p>
+    </form>
+    <footer>
+      Copyright 2021 Calzado Alejandro 
+    </footer>
+   <script src="js/Operaciones.js"></script>
+  </body>
+</html>
+ 
